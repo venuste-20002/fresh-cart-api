@@ -2,8 +2,8 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "Farm-RAMIP API",
-    "description": "APIs for the Farm-RAMIP Project",
+    "title": "fresh-cart-api",
+    "description": "APIs for the Fresh Cart Project",
     "termsOfService": "",
     "contact": {
       "email": "agritechrwteam@gmail.com"
@@ -299,10 +299,10 @@
           "Initial Route"
         ],
         "summary": "Handle Initial / Wrong GET Route",
-        "description": "By using the initial/wrong GET endpoint, you will see a welcome message (Welcome to Farm-RAMIP Platform-BackEnd)",
+        "description": "By using the initial/wrong GET endpoint, you will see a welcome message (Welcome to Fresh Cart Platform-BackEnd)",
         "responses": {
           "200": {
-            "description": "Success. (Welcome to Farm-RAMIP Platform-BackEnd.)"
+            "description": "Success. (Welcome to Fresh Cart Platform-BackEnd.)"
           }
         }
       }

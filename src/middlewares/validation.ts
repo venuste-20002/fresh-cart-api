@@ -207,7 +207,7 @@ const verifyUserCredentials = async (
       await authRepositories.createSession(session);
       await sendEmail(
         user.email,
-        "Farm-RAMIP Platform Login",
+        "FRESH CART Platform Login",
         generateOtpEmailTemplate(user, otp)
       );
 

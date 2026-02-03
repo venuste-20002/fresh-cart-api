@@ -3,8 +3,8 @@
 if [ -z "$DEV_DB_HOST" ] || [ "$DEV_DB_HOST" = "127.0.0.1" ] || [ "$DEV_DB_HOST" = "localhost" ]; then
     # If the DEV_DB_* variables are not set, we will use the default values
     if [ -z "$DEV_DB_NAME" ]; then
-        export DEV_DB_NAME="farm-ramip-backend-api"
-        echo "DEV_DB_NAME is not set. Using default value: farm-ramip-backend-api"
+        export DEV_DB_NAME="fresh-cart-api"
+        echo "DEV_DB_NAME is not set. Using default value: fresh-cart-api"
     fi
 
     if [ -z "$DEV_DB_USERNAME" ]; then

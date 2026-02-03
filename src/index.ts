@@ -63,7 +63,7 @@ app.use("/api", router);
 app.get("**", (req: Request, res: Response) => {
   res.status(httpStatus.OK).json({
     status: httpStatus.OK,
-    message: "Welcome to the Farm-RAMIP BackEnd."
+    message: "Welcome to the fresh cart BackEnd."
   });
 });
 

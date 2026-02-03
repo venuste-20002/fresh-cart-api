@@ -115,10 +115,10 @@ eventEmitter.on("accountVerified", async (user:usersAttributes) => {
   const username = user.firstName && user.lastName
   ? `${user.firstName} ${user.lastName}`
   : user.email.split("@")[0];
-  const message = `Welcome to Farm-RAMIP Platform, ${username}! Your account has been successfully created. We're excited to have you on board. Explore our features and enjoy your experience. If you have any questions, feel free to reach out to us. Happy shopping!
+  const message = `Welcome to FRESH CART Platform, ${username}! Your account has been successfully created. We're excited to have you on board. Explore our features and enjoy your experience. If you have any questions, feel free to reach out to us. Happy shopping!
 `
   await emitNotification(user.id, message, "accountVerified");
-  await sendEmail(user.email, "Welcome to Farm-RAMIP Platform!",await welcomeEmail(user))
+  await sendEmail(user.email, "Welcome to FRESH CART Platform!",await welcomeEmail(user))
 })
 
 eventEmitter.on("orderStatusUpdated", async (order) => {

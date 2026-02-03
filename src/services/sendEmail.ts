@@ -24,7 +24,7 @@ const sendEmailNotification = async (userId: string, message: string) => {
         const result = await resend.emails.send({
           from: 'onboarding@resend.dev', // Hardcoded
           to: user.email,
-          subject: "Farm-RAMIP Platform",
+          subject: "FRESH CART Platform",
           text: message
         });
         console.log("✓ Resend API Response:", JSON.stringify(result, null, 2));
