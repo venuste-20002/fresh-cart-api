@@ -1205,7 +1205,8 @@ const isOrderExists = async (req: any, res: Response, next: NextFunction) => {
     }
     req.order = order;
     next();
-  } catch (error) {
+  } 
+  catch (error) {
     return res
       .status(httpStatus.INTERNAL_SERVER_ERROR)
       .json({
